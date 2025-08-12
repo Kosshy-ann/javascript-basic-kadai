@@ -1,6 +1,6 @@
 //変数numの値に1~15のランダムな整数を代入する
 let num=Math.floor(Math.random()*15)+1;
-num=15;
+num=３;
  console.log(num);
 
 if(num%3===0 && num%5===0){

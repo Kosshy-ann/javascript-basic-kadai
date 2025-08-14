@@ -1,14 +1,18 @@
-//変数numの値に1~15のランダムな整数を代入する
-let num=Math.floor(Math.random()*15)+1;
-num=13;
- console.log(num);
+//変数numの値に0~15のランダムな整数を代入する
+let num=Math.floor(Math.random()*16);
 
 if(num%3===0 && num%5===0){
-console.log("3と5の倍数です");
-}else if(num%3===0){
+ console.log("3と5の倍数です");
+}
+
+else if(num%3===0){
  console.log("3の倍数です");
-}else if(num%5===0){
+}
+
+else if(num%5===0){
  console.log("5の倍数です");
-}else{
- console.log("変数numです");
+}
+
+else{
+ console.log();
 }
